@@ -17,6 +17,10 @@
     <input type="submit" name="sub" value="Push"/>
     <br/>
     ${login_msg.toUpperCase()}
+    <br/>
+    ${pageContext.session.id}
+    <br/>
+    ${filter_attr}
 </form>
 
 
